@@ -5,9 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Models\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microrabbit.Transfer.Domain\Microrabbit.Transfer.Domain.csproj" />
   </ItemGroup>
 
 </Project>
